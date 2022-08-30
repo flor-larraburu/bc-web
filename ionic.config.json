@@ -1,0 +1,7 @@
+{
+  "name": "bc-web",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
