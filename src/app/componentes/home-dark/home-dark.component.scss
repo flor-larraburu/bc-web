@@ -1,0 +1,44 @@
+#container{
+    width:1080;
+    height: 100%;
+    background-image: url(../../../assets/img/Gradient.jpg);
+    color:white;
+    background-size: 100% 100%;
+    display: grid;
+    place-items: center; 
+    font-family: 'Sengoa', sans-serif;    
+    
+    overflow: auto;  
+    scroll-snap-type: y mandatory;  
+                                                                                                                                                
+}
+
+.title{
+    width: 70%;
+    margin:70px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.info{
+    height: 150px;
+    margin: 30px;
+    align-items: center;
+}
+
+.text{
+    display: flex;
+}
+
+.info-title{
+    margin: 40px;
+    width: 50%;
+    text-align: center;
+}
+
+.info-text{
+    width: 40%;
+    margin:50px;
+    display: flex;
+    flex-direction: column;
+}
